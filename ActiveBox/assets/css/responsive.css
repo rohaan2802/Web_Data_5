@@ -1,0 +1,37 @@
+@media(max-width:932px){
+    nav {
+        flex-direction: column;
+        border: none;
+        padding-top: 40px;
+    }
+    nav > ul{
+     margin-left: -56px;   
+    }
+}
+@media(max-width:587px){
+    ul{
+        flex-direction: column;
+    }
+    ul > li{
+        padding: 6px;
+    }
+    .content > h1{
+        font-size: 30px;
+    }
+    .content > p{
+        font-size: 13px;
+        margin-top: -15px;
+    }
+    .content{
+        margin-top: 220px;
+    }
+    .content > a{
+        padding: 8px;
+        width: 138px;
+        font-size: 15px;
+        margin: 25px auto;
+    }
+    .home{
+        height: 560px;
+    }
+}
